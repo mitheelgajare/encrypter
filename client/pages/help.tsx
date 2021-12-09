@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 const Help = () => {
   return (
     <div className="help-page">
+      <Head>
+        <title>Encrypter - Help</title>
+      </Head>
       <div className="wrapper">
         <h1>Help & Support</h1>
 
