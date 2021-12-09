@@ -2,7 +2,6 @@
 
 Encrypter is a website where you can use a few algorithms to encrypt stuff.
 
-
 ## Dev Stuff:
 
 ### Frontend:
@@ -11,6 +10,7 @@ Encrypter is a website where you can use a few algorithms to encrypt stuff.
 2. NextJS
 
 ## Contributing:
+Please read our [CONTRIBUTING.md](https://github.com/mitheelgajare/encrypter/blob/main/CONTRIBUTING.md) for details
 
 ## License:
 
