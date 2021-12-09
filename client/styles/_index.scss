@@ -1,0 +1,44 @@
+.index-page {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  background: url(./../public/encryption.png);
+  background-size: cover;
+
+  .wrapper {
+    text-align: center;
+    h1 {
+      font-family: "Raleway", sans-serif;
+      font-size: 4rem;
+    }
+
+    form {
+      input {
+        font-family: "Poppins", sans-serif;
+        border: 3px solid $primary-color;
+        outline: none;
+
+        width: 30rem;
+        height: 2rem;
+
+        &::placeholder {
+          font-family: "Poppins", sans-serif;
+        }
+      }
+
+      select {
+        margin: 1rem;
+        font-family: "Poppins", sans-serif;
+        padding: 0.5rem 1.25rem;
+        border-radius: 1.25rem;
+      }
+    }
+    @media (max-width: 513px) {
+      form {
+        input {
+          width: 10rem;
+        }
+      }
+    }
+  }
+}

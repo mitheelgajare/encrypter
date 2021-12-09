@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Roboto&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  text-align: center;
+  opacity: 0.5;
+}
+
+.button {
+  border-radius: 2.5rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  border: 3px solid #267fde;
+  color: #267fde;
+  cursor: pointer;
+  margin: 1rem;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.button:hover {
+  color: white;
+  background: #267fde;
+  font-size: 3rem;
+}
+
+.output {
+  min-width: 15rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.index-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(./../public/encryption.png);
+  background-size: cover;
+}
+
+.index-page .wrapper {
+  text-align: center;
+}
+
+.index-page .wrapper h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+}
+
+.index-page .wrapper form input {
+  font-family: "Poppins", sans-serif;
+  border: 3px solid #267fde;
+  outline: none;
+  width: 30rem;
+  height: 2rem;
+}
+
+.index-page .wrapper form input::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.index-page .wrapper form input:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.index-page .wrapper form input::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.index-page .wrapper form input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+.index-page .wrapper form select {
+  margin: 1rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 1.25rem;
+  border-radius: 1.25rem;
+}
+
+@media (max-width: 513px) {
+  .index-page .wrapper form input {
+    width: 10rem;
+  }
+}
+
+.help-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e6f4f1;
+}
+
+.help-page .wrapper {
+  background: white;
+  min-width: 50rem;
+  padding: 1rem;
+}
+
+.help-page .wrapper h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.help-page .wrapper .comm {
+  max-width: 40rem;
+}
+
+.help-page ::-moz-selection {
+  background: black;
+  color: white;
+}
+
+.help-page ::selection {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 829px) {
+  .help-page .wrapper {
+    min-width: 20rem;
+    text-align: center;
+  }
+}
+
+.err404-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #a5abbd;
+  min-height: 100vh;
+}
+
+.err404-page div.wrapper {
+  background: #fff;
+  padding: 1rem;
+  border: 3px solid #267fde;
+}
+/*# sourceMappingURL=App.css.map */

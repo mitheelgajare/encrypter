@@ -1,0 +1,12 @@
+.err404-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a5abbd;
+  min-height: 100vh;
+  div.wrapper {
+    background: #fff;
+    padding: 1rem;
+    border: 3px solid $primary-color;
+  }
+}

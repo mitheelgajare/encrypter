@@ -1,0 +1,31 @@
+.help-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e6f4f1;
+
+  .wrapper {
+    background: white;
+    min-width: 50rem;
+    padding: 1rem;
+    h1 {
+      text-align: center;
+      font-size: 4rem;
+    }
+    .comm {
+      max-width: 40rem;
+    }
+  }
+
+  ::selection {
+    background: black;
+    color: white;
+  }
+
+  @media (max-width: 829px) {
+    .wrapper {
+      min-width: 20rem;
+      text-align: center;
+    }
+  }
+}
