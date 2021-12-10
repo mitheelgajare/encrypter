@@ -1,4 +1,13 @@
-# 0.1.0 (2021-12-10)
+## [0.1.1](https://github.com/mitheelgajare/encrypter/compare/v0.1.0...v0.1.1) (2021-12-10)
+
+
+### Bug Fixes
+
+* Removed unecessary imports ([4366989](https://github.com/mitheelgajare/encrypter/commit/4366989e40542f3facb9e46309c107694a7a87a5))
+
+
+
+# [0.1.0](https://github.com/mitheelgajare/encrypter/compare/7067e38c80c0129d9a524ee6b4f2be047d03cfe1...v0.1.0) (2021-12-10)
 
 
 ### Features
