@@ -44,7 +44,7 @@ const Help = () => {
           </p>
         </div>
         <div className="comm">
-          <h2>SHA-2 (SHA-256, SHA-512)</h2>
+          <h2>SHA-2 (SHA-256, SHA-512, SHA-224)</h2>
           <p>
             SHA-2 (Secure Hash Algorithm - 2) is a set of cryptographic hash
             functions designed by the United States National Security Agency
