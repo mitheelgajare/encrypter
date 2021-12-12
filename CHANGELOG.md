@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/mitheelgajare/encrypter/compare/v0.1.1...v0.2.0) (2021-12-12)
+
+
+### Features
+
+* Added sha224 algorithm ([0ffd2b7](https://github.com/mitheelgajare/encrypter/commit/0ffd2b7224b8cf193b1c2ee1656fa1a35f653ae3))
+
+
+
 ## [0.1.1](https://github.com/mitheelgajare/encrypter/compare/v0.1.0...v0.1.1) (2021-12-10)
 
 
