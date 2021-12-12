@@ -39,6 +39,7 @@ const Index: NextPage = () => {
             <option value="sha256">SHA-256</option>
             <option value="sha512">SHA-512</option>
             <option value="md5">MD5</option>
+            <option value="sha224">SHA-224</option>
           </select>
 
           <br />
